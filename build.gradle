@@ -8,8 +8,6 @@ plugins {
     id "org.jetbrains.kotlin.jvm" version "$kotlinVersion"
 }
 
-apply plugin: 'idea'
-
 group 'ru.barabo'
 version '0.9.1'
 

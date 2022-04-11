@@ -25,7 +25,7 @@ where wa.userid = user
 from od.xls_report r
 where r.directory = ?
   and (r.state = 1 or 1000005945 = ?)
-order by r.id""")
+order by r.NAME""")
 @TableName("OD.XLS_REPORT")
 data class Report (
     @ColumnName("ID")

@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        kotlinVersion = '1.6.10'
+        kotlinVersion = '1.7.10'
     }
 }
 
@@ -32,20 +32,20 @@ dependencies {
 
     implementation group: 'com.github.dbarabo', name: 'dbjdb', version: '0.9.5'
 
-    implementation group: 'com.github.dbarabo', name: 'xlsx', version: '0.9.9'
+    implementation group: 'com.github.dbarabo', name: 'xlsx', version: '0.9.15'
 
     testImplementation group: 'junit', name: 'junit', version: '4.13.2'
 }
 
 group 'ru.barabo'
-version '0.9.3'
+version '0.9.4'
 
 publishing {
     publications {
         maven(MavenPublication) {
             groupId = 'ru.barabo'
             artifactId = 'report-struct'
-            version = '0.9.3'
+            version = '0.9.4'
 
             from components.java
         }

@@ -30,7 +30,7 @@ dependencies {
 
     implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '4.1.2'
 
-    implementation group: 'com.github.dbarabo', name: 'dbjdb', version: '0.9.5'
+    implementation group: 'com.github.dbarabo', name: 'dbjdb', version: '0.9.6'
 
     implementation group: 'com.github.dbarabo', name: 'xlsx', version: '0.9.15'
 

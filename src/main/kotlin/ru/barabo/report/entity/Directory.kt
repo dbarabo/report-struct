@@ -14,7 +14,7 @@ where
          where d.id in (d2.parent, d2.id)  )
       and r.state = 1)
 )
-order by case when d.parent is null then 1000000*d.id else 1000000*d.parent + d.id end
+order by case when d.parent is null then 1000000*d.id else 1000000*d.parent + d.id end, name
 """)
 @TableName("OD.XLS_DIRECTORY")
 data class Directory(
